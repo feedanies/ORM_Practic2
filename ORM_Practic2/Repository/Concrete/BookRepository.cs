@@ -30,7 +30,7 @@ namespace ORM_Practic2.Repository.Concrete
 
         public IEnumerable<Book> GetAll()
         {
-            return _context.Books();
+            return _context.Books;
         }
 
         public Book? GetById(int id)
